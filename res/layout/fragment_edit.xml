@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/taskcard"
+    tools:context="com.example.notificationtest.DialogView$PlaceholderFragment" >
+
+    <EditText
+        android:id="@+id/maintask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/taskcard"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#797373"
+        android:text="Type your plan" />
+    
+    <EditText
+        android:id="@+id/folder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/taskcard"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#797373"
+        android:text="Folder select" />
+    
+    <EditText
+        android:id="@+id/priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/taskcard"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#797373"
+        android:text="Priority set" />
+    
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/taskcard"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#797373"
+        android:text="Time set" />
+    
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="Confirm"/>
+        <Button
+            android:id="@+id/quit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="Cancel"/>
+    </LinearLayout>
+    
+
+</LinearLayout>
